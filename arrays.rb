@@ -1,6 +1,4 @@
-
 list=1
 numbers=[]
-10.times do
-numbers.push(list)
-end
+numbers<<1 <<2 <<3 <<4 <<5 <<6 <<7 <<8 <<9 <<10
+
