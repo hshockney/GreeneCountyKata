@@ -1,4 +1,9 @@
-list=1
-numbers=[]
-numbers<<1 <<2 <<3 <<4 <<5 <<6 <<7 <<8 <<9 <<10
+list = 1
+numbers = []
+puts "List 1 to 100 "
+while list <= 100 
+  numbers.push(list)
+  list += 1
+  
+ end
 
