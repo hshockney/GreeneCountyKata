@@ -5,6 +5,8 @@ while list <= 100
  
   if list % 3 == 0
    numbers.push"Greene"
+   elsif list % 5 == 0
+   numbers.push"County"
    else
    numbers.push(list)
     
@@ -12,4 +14,3 @@ while list <= 100
   list += 1
   
  end
-
