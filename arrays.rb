@@ -6,4 +6,5 @@ while list <= 100
   list += 1
   
  end
+ numbers[2]="Greene"
 
