@@ -15,7 +15,7 @@ while list <= 100
  
 end
 
-puts"What index position 1-100 would you like to see the value for(index positions start at 0 for 1, 1 for 2,etc)?" 
+puts"What index position 0-99 would you like to see the value for?" 
 position=gets.chomp.to_i
 print"You have chosen #{position}"
 puts " The value is #{numbers.fetch(position)}"
